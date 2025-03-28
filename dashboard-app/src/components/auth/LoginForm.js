@@ -55,7 +55,7 @@ export default function LoginForm({ switchToSignup }) {
           onClick={switchToSignup}
           className="text-blue-600 hover:underline"
         >
-          Don't have an account? Sign up
+          Don&apos;t have an account? Sign up
         </button>
       </div>
     </div>

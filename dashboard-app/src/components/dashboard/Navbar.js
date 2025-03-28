@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FiUser, FiLogOut, FiTrash2, FiBell, FiSearch } from 'react-icons/fi';
+import { FiLogOut, FiTrash2, FiBell, FiSearch } from 'react-icons/fi';
 
 export default function Navbar() {
   const { user, logout, deleteAccount } = useAuth();
